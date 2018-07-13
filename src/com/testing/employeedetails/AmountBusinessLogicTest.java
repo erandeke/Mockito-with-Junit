@@ -29,7 +29,7 @@ public class AmountBusinessLogicTest {
 		empdetails.setName("Kaedar");
 		empdetails.setMonthlySalary(30000);
 		
-		
+
 		
 		double appraisal=amt.calAppraisal(empdetails);
 		
