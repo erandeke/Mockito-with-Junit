@@ -36,6 +36,7 @@ public class AmountBusinessLogic {
 	
 	
 	public BigDecimal calculateLeaveEncashment(EmployeeDetails emp)
+	
 	{
 		
 		 BigDecimal costValue=emp.getFixedPay().divide(emp.getTotalHrsOfLeave(),2 ,RoundingMode.HALF_UP);

@@ -30,6 +30,7 @@ public class AmountBusinessLogicTest {
 		empdetails.setMonthlySalary(30000);
 		
 		
+		
 		double appraisal=amt.calAppraisal(empdetails);
 		
 		assertEquals(1000, appraisal, 0.0);
